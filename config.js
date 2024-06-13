@@ -1,6 +1,6 @@
 
-export const DOMAIN = 'http://localhost:3000';
-// export const DOMAIN = 'https://www.vinlandsagamanga.in.net';
+// export const DOMAIN = 'http://localhost:3000';
+export const DOMAIN = 'https://www.mushokutenseimanga.in.net';
 
 export const MANGA_DESCRIPTION = `<a href="${DOMAIN}"><u>Mushoku Tensei: Jobless Reincarnation</u></a> is a Japanese light novel series about a 34-year-old NEET who, after dying in a traffic accident, is reincarnated in a fantasy world as Rudeus Greyrat. With his past life's knowledge, determination, and newfound magical abilities, he strives to live a fulfilling life and avoid repeating his past mistakes. The story explores themes of redemption, personal growth, and the complexities of relationships in a richly detailed world.`
 
