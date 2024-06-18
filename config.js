@@ -1,6 +1,6 @@
 
-// export const DOMAIN = 'http://localhost:3000';
-export const DOMAIN = 'https://www.mushokutenseimanga.in.net';
+export const DOMAIN = 'http://localhost:3000';
+// export const DOMAIN = 'https://www.mushokutenseimanga.in.net';
 
 export const MANGA_DESCRIPTION = `<a href="${DOMAIN}"><u>Mushoku Tensei: Jobless Reincarnation</u></a> is a Japanese light novel series about a 34-year-old NEET who, after dying in a traffic accident, is reincarnated in a fantasy world as Rudeus Greyrat. With his past life's knowledge, determination, and newfound magical abilities, he strives to live a fulfilling life and avoid repeating his past mistakes. The story explores themes of redemption, personal growth, and the complexities of relationships in a richly detailed world.`
 
@@ -30,7 +30,7 @@ export const logo = <img src={`${LOGO_URL}`} alt="Logo" className="h-[70px] w-[1
 export const APP_NAME = 'Mushoku Tensei';
 export const NavbarName = "Mushoku Tensei";
 
-export const APP_DESCRIPTION = `Read "${MANGA_NAME}" manga online at ${DOMAIN}. Enjoy high-quality scans, latest chapters, and connect with fans in our vibrant community.`;
+export const APP_DESCRIPTION = `Read ${MANGA_NAME} manga online at ${DOMAIN}. Enjoy high-quality scans, latest chapters, and connect with fans in our vibrant community.`;
 
 export const DISQUS_SHORTNAME = "my-cms-7";
 
