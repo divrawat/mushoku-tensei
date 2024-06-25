@@ -26,11 +26,12 @@ export default function Chapter({ chapterNumber, imageUrls, totalChapters, param
     const nextChapter = chapterIndex < totalChapters - 1 ? chaptersData[chapterIndex + 1].chapterNumber : null;
 
 
-    const DESCRIPTION = `Enjoy reading ${MANGA_NAME} chapter ${chapterNumber} online at ${DOMAIN}.`
+    const DESCRIPTION = `Enjoy reading ${MANGA_NAME} chapter ${chapterNumber} online at ${DOMAIN}. It follows the story of a 34-year-old unemployed and reclusive man who is reincarnated into a magical world as Rudeus Greyrat after dying in a traffic accident. With his past memories intact, he strives to live his new life without regrets, blending fantasy, adventure, and drama.`
+
     const URL = params.chapter;
-    const currentDate = new Date();
-    const dateModified = new Date(currentDate.getTime() - (2 * 24 * 60 * 60 * 1000)).toISOString();
-    const datePublished = new Date(currentDate.getTime() - (7 * 24 * 60 * 60 * 1000)).toISOString();
+    // const currentDate = new Date();
+    // const dateModified = new Date(currentDate.getTime() - (2 * 24 * 60 * 60 * 1000)).toISOString();
+    // const datePublished = new Date(currentDate.getTime() - (7 * 24 * 60 * 60 * 1000)).toISOString();
 
 
     const schema =
@@ -57,8 +58,8 @@ export default function Chapter({ chapterNumber, imageUrls, totalChapters, param
                 "url": `${LOGO_URL}`
             }
         },
-        "datePublished": datePublished,
-        "dateModified": dateModified
+        // "datePublished": datePublished,
+        // "dateModified": dateModified
     }
 
     const head = () => (
